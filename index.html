@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>The Allen Brain Observatory on Github</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1> <a href="http://www.alleninstitute.org/"><img src="images/AllenInstitute_Logo_RGB.png" style="max-width: 300px"></img></a> </h1>
+
+        <p> 
+            The <b>Allen Institute</b> is dedicated to accelerating the
+            understanding of how the human brain works in health and disease. 
+            Using a big science approach, the Allen Institute generates useful 
+            public resources used by researchers and organizations around the globe, 
+            drives technological and analytical advances, and discover fundamental 
+            brain properties through integration of experiments, modeling and theory.
+        </p>
+
+        <p class="view">
+            <a href="https://github.com/AllenInstitute">GitHub Profile</a> |
+            <a href="https://alleninstitute.org/">Allen Institute for Brain Science</a> |
+            <a href="http://brain-map.org/">Allen Brain Atlas</a> |
+            <a href="http://alleninstitute.github.io/AllenSDK">Allen SDK</a>
+          </p>
+      </header>
+
+      <section>
+        <h1><img src="images/Mouse_brainwaves.PNG"style="max-width: 220px"></img></h1>
+        <h1> The Allen Brain Observatory Ecosystem on Github </h1>
+
+        <p> 
+            The <b>Allen Brain Observatory</b> presents the first standardized 
+            in vivo surveys of physiological activity in the mouse visual 
+            cortex. Neural activity is recorded using two different modalities: 
+            2-photon optical physiology and Neuropixels probes.  
+            We make all the data from our systematic surveys of the mouse visual
+            system available to the community for further analysis and 
+            exploration. These data provide a rich testbed for theories and models 
+            of cortical computation.
+        </p>
+        
+        <p> 
+            The observatory currently encompasses three broad projects: 
+            <ul>
+                <li>Visual Coding (complete)</li>
+                <li>Visual Behavior (complete)</li>
+                <li>Learning mFISH (in development)</li>
+            </ul>
+        <p> 
+            <b>Visual Coding</b> used a broad range of visual stimuli, 
+            ranging from gratings and noise stimuli to natural images and 
+            movies which the mice passively view. It surveys the spatial and 
+            temporal dynamics of visual representation in the mouse 
+            corticothalamic visual pathways. 
+        </p>
+
+        <p> 
+            <b>Visual Behavior</b> mice performed a visual
+            change detection task to characterize how sensation and 
+            behavior are encoded in activity across the visual cortex 
+            and how these representations are influenced by behavior state and expectation. 
+            Both the Visual Behavior and Visual Coding projects include 
+            2-photon and Neuropixels datasets that have slightly different implementations.
+        </p>
+
+        <p> 
+            In the <b>Learning mFISH</b> project description
+        </p>
+
+
+        <p>
+           To accommodate the different neural recording modalities as
+            well as the differences between Visual Coding and Visual Behavior, 
+            we have created several different Github repositories to facilitate 
+            data exploration and analysis across these different data variations.
+            
+        </p>
+        <p class="view">
+            <a href="https://portal.brain-map.org/explore/circuits">Brain Observatory Overview</a> |
+            <a href="https://portal.brain-map.org/explore/circuits/visual-coding-2p">Visual Coding: 2-photon</a> |
+            <a href="https://portal.brain-map.org/explore/circuits/visual-coding-neuropixels">Visual Coding: Neuropixels</a> |
+            <a href="https://portal.brain-map.org/explore/circuits/visual-behavior-2p">Visual Behavior: 2-photon</a> |
+            <a href="http://portal.brain-map.org/explore/circuits/visual-behavior-neuropixels">Visual Behavior: Neuropixels</a> |
+          </p>
+        </header>
+  
+
+        <h2> Allen SDK </h2>
+
+        <p>
+          The Allen Institute for Brain Science has published the 
+          <a href="http://alleninstitute.github.io/AllenSDK">Allen Software Development Kit (SDK)</a>, 
+          which houses source code for reading and loading Allen Brain Observatory data. 
+          This is a public repo intended for use by both internal and external researchers.
+        </p>
+        <p>
+            This repo supports both Visual Coding and Visual Behavior
+        </p>
+
+        <h2> Brain Observatory Utilities </h2>
+
+        <p> 
+            <a href="https://github.com/AllenInstitute/brain_observatory_utilities">The Brain Observatory Utilities</a> 
+            (BOU) repository is a utility toolkit for processing, manipulating and 
+            visualizing data from the Allen Brain Observatory data via the Allen SDK.
+            This is a public repo intended for use by both internal and external researchers.
+        </p>
+        <p>
+            This repo supports only the Visual Behavior project data
+        </p>
+	
+	<h2> Brain Observatory Analysis </h2>
+	  
+	<p>		
+        <a href="https://github.com/AllenInstitute/brain_observatory_analysis">The Brain Observatory Analysis</a> 
+        (BOA) repository is an analysis toolkit focused on development of new analytical and 
+        visualization tools of Allen Brain Observatory data (Visual Behavior Ophys, Learning mFish).
+        This is a public repo intended for use by both internal and external researchers.
+	</p>
+    <p>
+        This repo supports only the Visual Behavior project data
+    </p>
+        
+	<h2> Brain Observatory QC </h2>
+    
+	<p>
+        <a href="https://github.com/AllenInstitute/brain_observatory_qc">The Brain Observatory QC</a>
+        (BOQC) repository computes quality control metrics and plots for 
+        Allen Brain Observatory projects, and specifically those that utilitze 2-photon imaging. 
+        It is also a central location for for tracking data quality issues. 
+        This is a private repo and is only accessible to internal Allen Institute researchers.
+	</p>
+				
+      </section>
+
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
