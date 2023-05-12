@@ -20,23 +20,22 @@
         <p> 
             The <b>Allen Institute</b> is dedicated to accelerating the
             understanding of how the human brain works in health and disease. 
-            A robust quality control system that is transparent is integral 
-            to the success of these projects. 
-            
-            The quality control system is currently supported by several code repos and databases.  
+            Using a big science approach, the Allen Institute generates useful 
+            public resources used by researchers and organizations around the globe, 
+            drives technological and analytical advances, and discover fundamental 
+            brain properties through integration of experiments, modeling and theory.
         </p>
 
         <p class="view">
-            LIMS: database storage for raw and processed data |
-            <a href="https://github.com/AllenInstitute/brain_observatory_qc">brain_observatory_qc: qc metric development space</a> |
-            <a href="https://github.com/AllenInstitute/mindscope_qc_metrics">mindscope_qc_metrics: production environment for derived qc metrics</a> |
-            QC SYS mongo database: qc metric storage, qc report buidling |
-            <a href="https://github.com/AllenInstitute/mouseseeks">QC SYS repo: qc report display</a>
+            <a href="https://github.com/AllenInstitute">GitHub Profile</a> |
+            <a href="https://alleninstitute.org/">Allen Institute for Brain Science</a> |
+            <a href="http://brain-map.org/">Allen Brain Atlas</a> |
+            <a href="http://alleninstitute.github.io/AllenSDK">Allen SDK</a>
           </p>
       </header>
 
       <section>
-        <h1><img src="images/Mouse_brainwaves.PNG"style="max-width: 220px"></img></h1>
+        <h1><img src="images/brainwaves_qc.PNG"style="max-width: 220px"></img></h1>
         <h1> Brain Observatory Quality Control Ecosystem </h1>
 
         <p> 
@@ -75,8 +74,25 @@
 
         <h2> QC Metric Computation </h2>
 
-        <p> 
-            description of brain_observatory_qc & mindscope_qc_metrics here
+        <p>
+          <a href="https://github.com/AllenInstitute/brain_observatory_qc">The Brain Observatory QC</a>
+          (BOQC) repository is a space for internal Allen Institute researchers
+          to develop new or one-off quality control metrics and plots. In this space scientists create
+          functions that can be run independently for their specific needs.
+          It is also a central location for for tracking data quality issues. 
+          This is a private repo and is only accessible to internal Allen Institute researchers.
+        </p>
+
+        <p>
+          <a href="https://github.com/AllenInstitute/mindscope_qc_metrics">Mindscope QC metrics</a>
+          Is considered the production space for computing quality control metrics that
+          can then be displayed in qc reports. All metrics and plots generated from this repo
+          are uploaded to the qc metrics database.
+          
+          Functions from BOQC repo can be moved into this repo once they are stable and abide
+          by the code and style guides.
+
+          This is a private repo and is only accessible to internal Allen Institute researchers.
         </p>
 
 	
@@ -93,10 +109,15 @@
 	</p>
 
   <h2> QC Report Display </h2>
+
+  <p>
+    <a href="https://github.com/AllenInstitute/mouseseeks">The MouseSeeks repo</a>
+    is responsible for displaying the quality control reports in a webapp that researchers
+    use to monitor data quality as well as make and record specific quality control decisions.
+
+    This is a private repo and is only accessible to internal Allen Institute researchers.
+  </p>
     
-	<p>
-        description of mouseseeks repo here
-	</p>
 				
       </section>
 
