@@ -1,0 +1,22 @@
+[{
+  "name_db": "string: internal lookup name",
+  "name_display": "string: how the tag will be displayed on the qc site",
+  "description": "",
+  "example_image": [
+    "filepath to image",
+    "filepath to image"
+  ],
+  "identification_type": "ENUM:['human', 'algorithm']",
+  "attempt_data_recollection_default": false,
+  "default_actions": [
+    "name_db from qc_tag_actions collection"
+  ],
+  "impacted_data_streams": [
+    "name_db from data_streams collection"
+  ],
+  "default_qc_outcome": "ENUM: ['pass', 'flag', 'fail']",
+  "module_groups": [
+    "name_db from module_groups collection"
+  ]
+  
+}]
